@@ -1,0 +1,27 @@
+{
+    "name": "dumdum-theme",
+    "displayName": "「愚純」dumDum_theme",
+    "description": "vscode theme for dumbahh femboy developers only use this if you develop in C/C++ or Rust, otherwise, spooky stuff will happen",
+    "version": "1.0.0",
+    "publisher": "jstmax",
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "contributes": {
+      "themes": [
+        {
+          "label": "「愚純」dumDum_theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/dumdum.json"
+        }
+      ]
+    },
+    "activationEvents": [
+      "onLanguage:*"
+    ],
+    "main": "out/extension.js",
+    "repository": {
+        "type": "git"
+    },
+    "tags": ["theme", "dark"]
+  }
